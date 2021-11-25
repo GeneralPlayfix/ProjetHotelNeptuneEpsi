@@ -1,0 +1,505 @@
+
+html{
+	scroll-behavior: smooth;
+}
+li{
+	list-style: none;	
+	list-style-type: none;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../image/Neptune-5.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+svg{
+	color:rgb(0, 0, 0);
+}
+
+.navbar-custom {
+    background-color: darkblue;
+}
+
+
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgba(255,255,255,.8);
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+}
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ffffff;
+}
+
+/* for dropdown only - change the color of droodown */
+.navbar-custom .dropdown-menu {
+    background-color: #1a12a2;
+}
+.navbar-custom .dropdown-item {
+    color: #ffffff;
+}
+.navbar-custom .dropdown-item:hover,
+.navbar-custom .dropdown-item:focus {
+    color: #333333;
+    background-color: rgba(255,255,255,.5);
+}
+.inputGroupSelect01{
+	color:black;
+}
+hr{
+	width: 50%;
+	background-color: black;
+	height:10px;
+}
+.card{
+	margin:1%;
+}
+
+.espaceCommentaire{
+	background-color:rgba(64, 93, 197, 0.87);
+	color: white;
+	width: 95%;
+	margin-left:2.5%;
+	padding: 1%;
+	margin-bottom: 1%;
+}
+#search{
+	margin: 1%;
+	margin-left: 70%;
+}
+#roomSearch{
+	background-color:rgba(64, 93, 197, 0.657); 
+	width: 40%;
+	margin-left: 30%;
+	border-radius: 20px;
+}
+#roomSearch div{
+	float: left;
+}
+
+#img{
+	width: 50%;
+	margin-left: 2%;
+}
+#img img{
+	width:110px;
+	height:110px;
+}
+
+.fond_reseau{
+	background-color: rgba(99, 119, 189, 0.452); 
+	border-radius: 40px 40px 40px 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap:wrap;
+}
+.maps{
+	float:right;
+	margin-right: 2%;
+	width: 47%;
+}
+.maps iframe{
+	border-radius:20px ;
+	width: 100%; 
+}
+.maps h1{
+	background-color: rgba(99, 119, 189, 0.452);
+	color: rgb(203, 209, 230);
+	border-radius:20px ;
+	text-align: center;
+}
+.fond_loging{
+background-color: rgba(99, 119, 189, 0.452); 
+border-radius: 40px 40px 40px 40px;
+}
+.inscription{
+	background-color: rgba(64, 93, 197, 0.657); 
+	width: 90%;
+	margin-left: 5%; 
+	border-radius: 10px;
+	padding-bottom: 5px;
+	color:white;
+}
+.inscription1{
+	background-color: rgba(64, 93, 197, 0.657); 
+	width: 90%;
+	margin-left: 5%; 
+	border-radius: 10px;
+	padding-bottom: 5px;
+}
+
+.inscription1 h3{
+	color:white;
+}
+#add{
+	float: right;
+	margin: 1%;
+	
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+.search {
+  width: 100%;
+  display: flex;
+}
+.search input{
+	height: 100%;
+	border:3px solid rgb(26, 75, 211);
+	color: black;
+}
+.searchTerm {
+  width: 100%;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color:rgb(9, 20, 175);
+}
+
+.searchTerm:focus{
+  color: rgb(26, 75, 211);
+}
+
+.searchButton {
+  width: 40px;
+  text-align: center;
+  color: #fff;
+  border:1px solid rgb(26, 75, 211);
+  background-color: rgb(26, 75, 211);
+  border-radius: 0 5px 5px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 30%;
+}
+
+/*taille de la srgb(88, 92, 97)ar*/
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  /*tracking de cette même scroll bar*/
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 8px;
+}
+  
+  /*manipulation de la scroll bar*/
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 2px;  
+}
+  
+  /* manipulation de la scroll bar en en hover*/
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+#descendantdiv{
+	    background-color:rgba(15, 38, 139, 0.9);
+
+	width :100%;
+	display:none;
+	border-radius: 10px;
+	color:white;
+}
+#descendantdiv svg{
+	color:white;
+}
+#descendantdiv:target{
+	display:table;
+	
+}
+.searchdiv{
+	float:right; 
+	margin:2%; 
+	width: 50%;
+	font-size:18px;
+	transition: all .5s ease-in-out;
+}
+.searchbar{
+	width: 50%;
+}
+#searchButton{
+	float: right;
+	margin-right: 2%;
+}
+/* Les responsive */
+@media (max-width:1200px){
+.maps{
+		width: 60%;
+		margin-right: 20%;
+	}
+	#img{
+	margin-left: 4%;
+	}
+}
+
+@media (max-width:1300px){
+	.maps{
+		width: 70%;
+		margin-right: 15%;
+		margin-top: 4%;
+	}
+	#img{
+	margin-left: 4%;
+	}
+}
+
+@media (max-width:1000px){
+	.maps{
+		width: 80%;
+		margin-right: 10%
+	}
+	#img{
+		width: 80%;
+		margin-left: 10%
+	}
+}
+@media (max-width:600px){
+	.searchdiv{
+	width: 96%;
+	margin-right:2%;
+	}
+	
+	
+}
+
+/*style du formulaire de resevration :*/
+.form_contact{
+	width: 60%;
+	opacity:0.9;
+	background-color: #c99552;
+}
+
+.img{
+	width: 100%;
+	height: auto;
+}
+.accueil{
+	height:92vh;
+	background: url(https://i.ibb.co/TwJpHqv/port.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items:center; 
+}
+.accueil h1{
+color:white;	
+border:1px solid darkblue;
+background-color: black;
+opacity : 0.6; 
+display: inline;
+}
+
+/*  d�but */
+
+
+
+#booking {
+	font-family: 'PT Sans', sans-serif;
+	background-size: cover;
+	background-position: center;
+}
+
+.booking-form {
+	background: rgba(0, 0, 0, 0.7);
+	padding: 20px;
+	border-radius: 6px;
+	align-items: center;
+}
+
+.booking-form .form-group {
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.booking-form .form-control {
+	background-color: #fff;
+	height: 50px;
+	color: #191a1e;
+	border: none;
+	font-size: 16px;
+	font-weight: 400;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border-radius: 40px;
+	padding: 0px 25px;
+}
+
+.booking-form input[type="date"].form-control:invalid {
+	color: rgba(82, 82, 84, 0.4);
+}
+
+.booking-form .form-label {
+	display: block;
+	margin-left: 20px;
+	margin-bottom: 5px;
+	font-weight: 400;
+	text-transform: uppercase;
+	line-height: 24px;
+	height: 24px;
+	font-size: 12px;
+	color: #fff;
+}
+
+.booking-form .form-checkbox input:not(:checked)+span:after {
+	opacity: 0;
+}
+
+.booking-form .form-checkbox input:checked+span:after {
+	opacity: 1;
+	width: 10px;
+	height: 10px;
+}
+
+.booking-form .form-btn {
+	margin-top: 27px;
+}
+
+.booking-form .submit-btn {
+	color: #fff;
+	background-color: #2265e2;
+	font-weight: 400;
+	height: 50px;
+	font-size: 14px;
+	border: none;
+	width: 100%;
+	border-radius: 40px;
+	text-transform: uppercase;
+	-webkit-transition: 0.2s all;
+	transition: 0.2s all;
+}
+
+.booking-form .submit-btn:hover,
+.booking-form .submit-btn:focus {
+	opacity: 0.9;
+}
+
+
+/* pas toucher */
+
+.searchBar{
+	width: 58%;
+	float:right;
+}
+.searchBar svg{
+	color:white;
+}
+
+.searchError{
+	color:red;
+	background-color: rgba(0, 0, 0, 0.863); 
+	margin-top: 2%;
+	text-align: center;
+}
+/* FLOATING DIV WITH CALENDAR */
+.global table{
+    border-collapse: collapse;
+	width: 800px;
+	border-radius:10px;
+}
+.global th{
+    padding: 20px;
+    text-align: center;
+    border-radius:20px; 
+    margin-left: 10px;
+    box-shadow: 6px 6px 12px black;
+}
+.global th:hover{
+	 color:rgb(200, 240, 240);
+	 cursor: pointer;
+}
+
+.global tr{
+	border-radius: 20px;
+}
+.global{
+    vertical-align: auto;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    position:fixed;
+    border-radius:20px;
+    background-color:rgba(64, 93, 197, 0.657);
+    top:20%;
+    left:25%;
+    padding: 0.5% 1% 1% 1%;
+    box-shadow: 4px 4px 20px black;
+}
+
+.global svg{
+    width: 20px;
+    height: 20px;
+    color: red; 	
+}
+.targetOf{
+    float: right;
+}
+.global:target{
+    display: table;
+}
+
+.right svg{
+	color:rgb(200, 200, 200);
+	background-color:darkblue;
+	box-shadow:2px 2px 8px black;
+}
+.global svg:hover{
+	color:white;
+}
+.left svg{
+	color:rgb(200, 200, 200);
+	background-color:darkblue;
+	box-shadow: 2px 2px 8px black;
+}
+
+.dessus {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.section {
+	background-color: rgba(64, 93, 197, 0.657); 
+	color: white;
+	width: 95%;
+	margin-left: 2.5%;
+	border-radius: 15px;
+}
+#button{
+	float: right;
+	margin-right: 1%;
+}
+.section a{
+	float: right;
+	margin-right: 1%;
+	color: black;
+	text-decoration: none;
+}
+.section a:hover{
+	color: white;
+}
+.section form{
+	width: 98%;
+	margin-left: 1%;
+}
